@@ -1,0 +1,4 @@
+#!/home/runner/Machine-Learning-Test-Project/venv/bin/python
+# EASY-INSTALL-SCRIPT: 'python-mnist==0.7','emnist_preview'
+__requires__ = 'python-mnist==0.7'
+__import__('pkg_resources').run_script('python-mnist==0.7', 'emnist_preview')

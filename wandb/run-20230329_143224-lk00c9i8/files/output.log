@@ -1,0 +1,129 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 24, 24, 5)         130
+ flatten (Flatten)           (None, 2880)              0
+ dropout (Dropout)           (None, 2880)              0
+ dense (Dense)               (None, 10)                28810
+=================================================================
+Total params: 28,940
+Trainable params: 28,940
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200/200 [==============================] - ETA: 0s - loss: 0.6038 - accuracy: 0.8193
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _update_step_xla while saving (showing 2 of 2). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.0s
+Epoch 1: saving model to savestates/model_1/cp.ckpt
+200/200 [==============================] - 55s 266ms/step - loss: 0.6038 - accuracy: 0.8193
+Epoch 2/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200/200 [==============================] - ETA: 0s - loss: 0.2118 - accuracy: 0.9380
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _update_step_xla while saving (showing 2 of 2). These functions will not be directly callable after loading.
+
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.1s
+Epoch 2: saving model to savestates/model_1/cp.ckpt
+200/200 [==============================] - 53s 265ms/step - loss: 0.2118 - accuracy: 0.9380
+Epoch 3/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200/200 [==============================] - ETA: 0s - loss: 0.1545 - accuracy: 0.9547
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _update_step_xla while saving (showing 2 of 2). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.0s
+Epoch 3: saving model to savestates/model_1/cp.ckpt
+200/200 [==============================] - 50s 251ms/step - loss: 0.1545 - accuracy: 0.9547
+Epoch 4/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200/200 [==============================] - ETA: 0s - loss: 0.1283 - accuracy: 0.9624
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _update_step_xla while saving (showing 2 of 2). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.1s
+Epoch 4: saving model to savestates/model_1/cp.ckpt
+200/200 [==============================] - 50s 249ms/step - loss: 0.1283 - accuracy: 0.9624
+Test loss: 0.10463842749595642
+Test accuracy: 0.9702000021934509

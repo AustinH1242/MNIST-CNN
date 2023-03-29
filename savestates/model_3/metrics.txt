@@ -1,0 +1,27 @@
+Test accuracy:
+0.9678000211715698
+
+Test loss:
+0.14722059667110443
+
+_____________________________
+ Layer (type)                Output Shape              Param #   Trainable  
+============================================================================
+ conv2d (Conv2D)             (None, 24, 24, 5)         130       Y          
+                                                                            
+ max_pooling2d (MaxPooling2D  (None, 11, 11, 5)        0         Y          
+ )                                                                          
+                                                                            
+ flatten (Flatten)           (None, 605)               0         Y          
+                                                                            
+ dense (Dense)               (None, 32)                19392     Y          
+                                                                            
+ dropout (Dropout)           (None, 32)                0         Y          
+                                                                            
+ dense_1 (Dense)             (None, 10)                330       Y          
+                                                                            
+============================================================================
+Total params: 19,852
+Trainable params: 19,852
+Non-trainable params: 0
+____________________________________________________________________________

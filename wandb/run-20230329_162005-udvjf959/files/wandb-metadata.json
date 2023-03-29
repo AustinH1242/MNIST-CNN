@@ -1,0 +1,71 @@
+{
+    "os": "Linux-5.15.0-1031-gcp-x86_64-with-glibc2.35",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-03-29T16:20:06.379464",
+    "startedAt": "2023-03-29T16:20:05.839845",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/runner/Machine-Learning-Test-Project/test_model.py",
+    "codePath": "test_model.py",
+    "host": "d418e7b985c3",
+    "username": "runner",
+    "executable": "/home/runner/Machine-Learning-Test-Project/venv/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2249.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1639.7619400024414,
+        "used": 41.570281982421875
+    },
+    "memory": {
+        "total": 62.802040100097656
+    }
+}

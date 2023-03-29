@@ -1,0 +1,1 @@
+{"batch/loss": 0.27184057235717773, "batch/accuracy": 0.9069686532020569, "batch/batch_step": 24860, "batch/learning_rate": 0.0010000000474974513, "_timestamp": 1680105353.5699878, "_runtime": 469.2099018096924, "_step": 4976, "epoch/loss": 0.3011069595813751, "epoch/accuracy": 0.9016500115394592, "epoch/epoch": 3, "epoch/learning_rate": 0.0010000000474974513}

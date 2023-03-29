@@ -1,0 +1,25 @@
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Configure stats pid to 1144
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Loading settings from /home/runner/.config/wandb/settings
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Loading settings from /home/runner/Machine-Learning-Test-Project/wandb/settings
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_model.py', 'program': '/home/runner/Machine-Learning-Test-Project/test_model.py'}
+2023-03-29 15:13:06,030 INFO    MainThread:1144 [wandb_init.py:_log_setup():506] Logging user logs to /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_151306-thmsmm5z/logs/debug.log
+2023-03-29 15:13:06,031 INFO    MainThread:1144 [wandb_init.py:_log_setup():507] Logging internal logs to /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_151306-thmsmm5z/logs/debug-internal.log
+2023-03-29 15:13:06,031 INFO    MainThread:1144 [wandb_init.py:init():546] calling init triggers
+2023-03-29 15:13:06,031 INFO    MainThread:1144 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'metric': 'accuracy', 'epoch': 4, 'batch_size': 300}
+2023-03-29 15:13:06,031 INFO    MainThread:1144 [wandb_init.py:init():602] starting backend
+2023-03-29 15:13:06,032 INFO    MainThread:1144 [wandb_init.py:init():606] setting up manager
+2023-03-29 15:13:06,037 INFO    MainThread:1144 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-29 15:13:06,045 INFO    MainThread:1144 [wandb_init.py:init():613] backend started and connected
+2023-03-29 15:13:06,054 INFO    MainThread:1144 [wandb_init.py:init():701] updated telemetry
+2023-03-29 15:13:06,055 INFO    MainThread:1144 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-29 15:13:06,401 INFO    MainThread:1144 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-29 15:13:06,598 INFO    MainThread:1144 [wandb_run.py:_on_init():2142] got version response 
+2023-03-29 15:13:06,599 INFO    MainThread:1144 [wandb_init.py:init():789] starting run threads in backend
+2023-03-29 15:13:06,680 INFO    MainThread:1144 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-29 15:13:06,681 INFO    MainThread:1144 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-29 15:13:06,682 INFO    MainThread:1144 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-29 15:13:06,683 INFO    MainThread:1144 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-29 15:13:06,686 INFO    MainThread:1144 [wandb_init.py:init():831] run started, returning control to user process

@@ -1,0 +1,62 @@
+2023-03-29 15:46:15,066 INFO    StreamThr :319 [internal.py:wandb_internal():87] W&B internal server running at pid: 319, started at: 2023-03-29 15:46:15.065505
+2023-03-29 15:46:15,067 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: status
+2023-03-29 15:46:15,073 INFO    WriterThread:319 [datastore.py:open_for_write():85] open: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/run-vkrqlnez.wandb
+2023-03-29 15:46:15,074 DEBUG   SenderThread:319 [sender.py:send():336] send: header
+2023-03-29 15:46:15,074 DEBUG   SenderThread:319 [sender.py:send():336] send: run
+2023-03-29 15:46:15,423 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: check_version
+2023-03-29 15:46:15,424 INFO    SenderThread:319 [dir_watcher.py:__init__():219] watching files in: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files
+2023-03-29 15:46:15,425 INFO    SenderThread:319 [sender.py:_start_run_threads():1078] run started: vkrqlnez with start time 1680104775.068678
+2023-03-29 15:46:15,425 DEBUG   SenderThread:319 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:46:15,425 INFO    SenderThread:319 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:46:15,426 DEBUG   SenderThread:319 [sender.py:send_request():363] send_request: check_version
+2023-03-29 15:46:15,608 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: run_start
+2023-03-29 15:46:15,610 DEBUG   HandlerThread:319 [system_info.py:__init__():31] System info init
+2023-03-29 15:46:15,622 DEBUG   HandlerThread:319 [system_info.py:__init__():46] System info init done
+2023-03-29 15:46:15,622 INFO    HandlerThread:319 [system_monitor.py:start():183] Starting system monitor
+2023-03-29 15:46:15,622 INFO    SystemMonitor:319 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-29 15:46:15,624 INFO    HandlerThread:319 [system_monitor.py:probe():204] Collecting system info
+2023-03-29 15:46:15,628 DEBUG   HandlerThread:319 [system_info.py:probe():195] Probing system
+2023-03-29 15:46:15,625 INFO    SystemMonitor:319 [interfaces.py:start():187] Started cpu monitoring
+2023-03-29 15:46:15,639 INFO    SystemMonitor:319 [interfaces.py:start():187] Started disk monitoring
+2023-03-29 15:46:15,641 INFO    SystemMonitor:319 [interfaces.py:start():187] Started memory monitoring
+2023-03-29 15:46:15,643 INFO    SystemMonitor:319 [interfaces.py:start():187] Started network monitoring
+2023-03-29 15:46:15,647 DEBUG   HandlerThread:319 [git.py:repo():40] git repository is invalid
+2023-03-29 15:46:15,647 DEBUG   HandlerThread:319 [system_info.py:probe():240] Probing system done
+2023-03-29 15:46:15,647 DEBUG   HandlerThread:319 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-1031-gcp-x86_64-with-glibc2.35', 'python': '3.10.8', 'heartbeatAt': '2023-03-29T15:46:15.634237', 'startedAt': '2023-03-29T15:46:15.032382', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/runner/Machine-Learning-Test-Project/test_model.py', 'codePath': 'test_model.py', 'host': 'b14348264fae', 'username': 'runner', 'executable': '/home/runner/Machine-Learning-Test-Project/venv/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2249.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1639.7619400024414, 'used': 41.57160186767578}, 'memory': {'total': 62.802040100097656}}
+2023-03-29 15:46:15,648 INFO    HandlerThread:319 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-29 15:46:15,648 INFO    HandlerThread:319 [system_monitor.py:probe():217] Publishing system info
+2023-03-29 15:46:15,648 DEBUG   HandlerThread:319 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-29 15:46:15,648 DEBUG   HandlerThread:319 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-29 15:46:15,649 DEBUG   HandlerThread:319 [system_info.py:_save_code():89] Saving code
+2023-03-29 15:46:15,649 DEBUG   HandlerThread:319 [system_info.py:_save_code():110] Saving code done
+2023-03-29 15:46:15,650 INFO    HandlerThread:319 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-29 15:46:15,666 DEBUG   SenderThread:319 [sender.py:send():336] send: files
+2023-03-29 15:46:15,668 INFO    SenderThread:319 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-29 15:46:15,679 INFO    SenderThread:319 [sender.py:_save_file():1332] saving file code/test_model.py with policy now
+2023-03-29 15:46:15,686 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-29 15:46:15,687 DEBUG   SenderThread:319 [sender.py:send_request():363] send_request: stop_status
+2023-03-29 15:46:16,096 DEBUG   SenderThread:319 [sender.py:send():336] send: telemetry
+2023-03-29 15:46:16,481 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/code/test_model.py
+2023-03-29 15:46:16,481 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/wandb-metadata.json
+2023-03-29 15:46:16,482 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/wandb-summary.json
+2023-03-29 15:46:16,482 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/requirements.txt
+2023-03-29 15:46:16,482 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/code
+2023-03-29 15:46:16,722 INFO    wandb-upload_1:319 [upload_job.py:push():138] Uploaded file /tmp/tmpfwbrzyduwandb/6rrqb79m-code/test_model.py
+2023-03-29 15:46:16,799 INFO    wandb-upload_0:319 [upload_job.py:push():138] Uploaded file /tmp/tmpfwbrzyduwandb/m2fywttc-wandb-metadata.json
+2023-03-29 15:46:17,088 DEBUG   SenderThread:319 [sender.py:send():336] send: telemetry
+2023-03-29 15:46:17,088 DEBUG   SenderThread:319 [sender.py:send():336] send: metric
+2023-03-29 15:46:17,089 DEBUG   SenderThread:319 [sender.py:send():336] send: telemetry
+2023-03-29 15:46:17,089 DEBUG   SenderThread:319 [sender.py:send():336] send: metric
+2023-03-29 15:46:17,089 WARNING SenderThread:319 [sender.py:send_metric():1283] Seen metric with glob (shouldn't happen)
+2023-03-29 15:46:17,089 DEBUG   SenderThread:319 [sender.py:send():336] send: telemetry
+2023-03-29 15:46:17,416 INFO    Thread-13 :319 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/output.log
+2023-03-29 15:46:19,418 INFO    Thread-13 :319 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/output.log
+2023-03-29 15:46:20,293 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:46:20,296 DEBUG   SenderThread:319 [sender.py:send():336] send: metric
+2023-03-29 15:46:20,298 DEBUG   SenderThread:319 [sender.py:send():336] send: metric
+2023-03-29 15:46:20,298 DEBUG   SenderThread:319 [sender.py:send():336] send: metric
+2023-03-29 15:46:20,298 DEBUG   SenderThread:319 [sender.py:send():336] send: history
+2023-03-29 15:46:20,302 DEBUG   SenderThread:319 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:46:20,302 INFO    SenderThread:319 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:46:20,303 DEBUG   HandlerThread:319 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:46:20,478 INFO    Thread-13 :319 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_154615-vkrqlnez/files/wandb-summary.json

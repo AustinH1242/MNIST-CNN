@@ -1,0 +1,197 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 0s 0us/step
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 24, 24, 5)         130
+ max_pooling2d (MaxPooling2D  (None, 11, 11, 5)        0
+ )
+ conv2d_1 (Conv2D)           (None, 9, 9, 3)           138
+ flatten (Flatten)           (None, 243)               0
+ dropout (Dropout)           (None, 243)               0
+ dense (Dense)               (None, 32)                7808
+ dropout_1 (Dropout)         (None, 32)                0
+ dense_1 (Dense)             (None, 10)                330
+=================================================================
+Total params: 8,406
+Trainable params: 8,406
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600/600 [==============================] - ETA: 0s - loss: 2.9061 - accuracy: 0.2961
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.0s
+Epoch 1: saving model to savestates/model_2/cp.ckpt
+600/600 [==============================] - 72s 114ms/step - loss: 2.9061 - accuracy: 0.2961
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600/600 [==============================] - ETA: 0s - loss: 1.2481 - accuracy: 0.6047
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.0s
+Epoch 2: saving model to savestates/model_2/cp.ckpt
+600/600 [==============================] - 64s 107ms/step - loss: 1.2481 - accuracy: 0.6047
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600/600 [==============================] - ETA: 0s - loss: 0.7601 - accuracy: 0.7670
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.0s
+Epoch 3: saving model to savestates/model_2/cp.ckpt
+600/600 [==============================] - 64s 106ms/step - loss: 0.7601 - accuracy: 0.7670
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600/600 [==============================] - ETA: 0s - loss: 0.5960 - accuracy: 0.8177
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.1s
+Epoch 4: saving model to savestates/model_2/cp.ckpt
+600/600 [==============================] - 62s 103ms/step - loss: 0.5960 - accuracy: 0.8177
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600/600 [==============================] - ETA: 0s - loss: 0.5351 - accuracy: 0.8347
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.1s
+Epoch 5: saving model to savestates/model_2/cp.ckpt
+600/600 [==============================] - 66s 110ms/step - loss: 0.5351 - accuracy: 0.8347
+Test loss: 0.2454575151205063
+Test accuracy: 0.9307000041007996

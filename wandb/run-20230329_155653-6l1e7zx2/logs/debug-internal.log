@@ -1,0 +1,326 @@
+2023-03-29 15:56:53,049 INFO    StreamThr :312 [internal.py:wandb_internal():87] W&B internal server running at pid: 312, started at: 2023-03-29 15:56:53.048168
+2023-03-29 15:56:53,063 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status
+2023-03-29 15:56:53,065 INFO    WriterThread:312 [datastore.py:open_for_write():85] open: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/run-6l1e7zx2.wandb
+2023-03-29 15:56:53,066 DEBUG   SenderThread:312 [sender.py:send():336] send: header
+2023-03-29 15:56:53,066 DEBUG   SenderThread:312 [sender.py:send():336] send: run
+2023-03-29 15:56:53,347 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: check_version
+2023-03-29 15:56:53,354 INFO    SenderThread:312 [dir_watcher.py:__init__():219] watching files in: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files
+2023-03-29 15:56:53,354 INFO    SenderThread:312 [sender.py:_start_run_threads():1078] run started: 6l1e7zx2 with start time 1680105413.049664
+2023-03-29 15:56:53,355 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:56:53,355 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:56:53,355 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: check_version
+2023-03-29 15:56:53,568 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: run_start
+2023-03-29 15:56:53,570 DEBUG   HandlerThread:312 [system_info.py:__init__():31] System info init
+2023-03-29 15:56:53,570 DEBUG   HandlerThread:312 [system_info.py:__init__():46] System info init done
+2023-03-29 15:56:53,570 INFO    HandlerThread:312 [system_monitor.py:start():183] Starting system monitor
+2023-03-29 15:56:53,571 INFO    SystemMonitor:312 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-29 15:56:53,571 INFO    HandlerThread:312 [system_monitor.py:probe():204] Collecting system info
+2023-03-29 15:56:53,572 INFO    SystemMonitor:312 [interfaces.py:start():187] Started cpu monitoring
+2023-03-29 15:56:53,573 INFO    SystemMonitor:312 [interfaces.py:start():187] Started disk monitoring
+2023-03-29 15:56:53,577 DEBUG   HandlerThread:312 [system_info.py:probe():195] Probing system
+2023-03-29 15:56:53,580 DEBUG   HandlerThread:312 [git.py:repo():40] git repository is invalid
+2023-03-29 15:56:53,581 DEBUG   HandlerThread:312 [system_info.py:probe():240] Probing system done
+2023-03-29 15:56:53,581 DEBUG   HandlerThread:312 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-1031-gcp-x86_64-with-glibc2.35', 'python': '3.10.8', 'heartbeatAt': '2023-03-29T15:56:53.578090', 'startedAt': '2023-03-29T15:56:53.009741', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/runner/Machine-Learning-Test-Project/test_model.py', 'codePath': 'test_model.py', 'host': '9f2c5b11112b', 'username': 'runner', 'executable': '/home/runner/Machine-Learning-Test-Project/venv/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2249.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}, {'current': 2249.998, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1639.7619400024414, 'used': 41.57361602783203}, 'memory': {'total': 62.802032470703125}}
+2023-03-29 15:56:53,581 INFO    HandlerThread:312 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-29 15:56:53,581 INFO    HandlerThread:312 [system_monitor.py:probe():217] Publishing system info
+2023-03-29 15:56:53,581 DEBUG   HandlerThread:312 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-29 15:56:53,582 DEBUG   HandlerThread:312 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-29 15:56:53,582 DEBUG   HandlerThread:312 [system_info.py:_save_code():89] Saving code
+2023-03-29 15:56:53,582 DEBUG   HandlerThread:312 [system_info.py:_save_code():110] Saving code done
+2023-03-29 15:56:53,583 INFO    HandlerThread:312 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-29 15:56:53,584 INFO    SystemMonitor:312 [interfaces.py:start():187] Started memory monitoring
+2023-03-29 15:56:53,587 INFO    SystemMonitor:312 [interfaces.py:start():187] Started network monitoring
+2023-03-29 15:56:53,618 DEBUG   SenderThread:312 [sender.py:send():336] send: files
+2023-03-29 15:56:53,618 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-29 15:56:53,619 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file code/test_model.py with policy now
+2023-03-29 15:56:53,655 DEBUG   SenderThread:312 [sender.py:send():336] send: telemetry
+2023-03-29 15:56:53,661 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-29 15:56:53,666 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: stop_status
+2023-03-29 15:56:54,420 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-metadata.json
+2023-03-29 15:56:54,421 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:56:54,421 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/requirements.txt
+2023-03-29 15:56:54,421 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/code/test_model.py
+2023-03-29 15:56:54,422 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/code
+2023-03-29 15:56:54,615 INFO    wandb-upload_0:312 [upload_job.py:push():138] Uploaded file /tmp/tmprrxi595vwandb/5b3x7nlq-wandb-metadata.json
+2023-03-29 15:56:54,766 INFO    wandb-upload_1:312 [upload_job.py:push():138] Uploaded file /tmp/tmprrxi595vwandb/oky8372r-code/test_model.py
+2023-03-29 15:56:55,087 DEBUG   SenderThread:312 [sender.py:send():336] send: telemetry
+2023-03-29 15:56:55,087 DEBUG   SenderThread:312 [sender.py:send():336] send: metric
+2023-03-29 15:56:55,087 DEBUG   SenderThread:312 [sender.py:send():336] send: telemetry
+2023-03-29 15:56:55,087 DEBUG   SenderThread:312 [sender.py:send():336] send: metric
+2023-03-29 15:56:55,117 WARNING SenderThread:312 [sender.py:send_metric():1283] Seen metric with glob (shouldn't happen)
+2023-03-29 15:56:55,117 DEBUG   SenderThread:312 [sender.py:send():336] send: telemetry
+2023-03-29 15:56:55,352 INFO    Thread-13 :312 [dir_watcher.py:_on_file_created():278] file/dir created: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:56:57,353 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:56:57,830 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:56:57,836 DEBUG   SenderThread:312 [sender.py:send():336] send: metric
+2023-03-29 15:56:57,837 DEBUG   SenderThread:312 [sender.py:send():336] send: metric
+2023-03-29 15:56:57,837 DEBUG   SenderThread:312 [sender.py:send():336] send: metric
+2023-03-29 15:56:57,838 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:56:57,838 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:56:57,840 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:56:58,060 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:56:58,359 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:56:59,227 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:56:59,230 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:56:59,230 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:56:59,232 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:56:59,355 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:56:59,355 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:00,526 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:00,527 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:00,528 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:00,529 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:01,418 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:01,418 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:01,740 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:01,819 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:01,819 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:01,819 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:02,418 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:02,929 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:02,934 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:02,935 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:02,936 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:03,145 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:03,421 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:03,421 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:04,041 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:04,043 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:04,117 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:04,118 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:04,424 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:05,241 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:05,246 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:05,247 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:05,317 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:05,425 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:05,425 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:06,436 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:06,442 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:06,442 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:06,443 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:07,430 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:07,430 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:07,531 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:07,533 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:07,533 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:07,535 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:08,228 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:08,432 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:08,634 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:08,635 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:08,635 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:08,637 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:08,638 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-29 15:57:08,639 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: stop_status
+2023-03-29 15:57:09,433 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:09,433 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:09,923 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:09,926 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:09,927 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:09,929 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:10,434 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:11,117 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:11,119 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:11,120 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:11,121 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:11,434 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:11,435 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:12,239 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:12,240 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:12,241 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:12,241 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:12,435 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:13,342 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:13,344 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:13,345 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:13,345 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:13,347 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:13,518 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:13,518 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:14,427 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:14,438 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:14,441 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:14,457 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:14,521 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:15,533 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:15,543 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:15,546 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:15,546 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:15,547 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:16,535 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:16,649 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:16,657 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:16,657 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:16,657 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:17,535 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:17,536 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:17,731 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:17,734 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:17,734 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:17,735 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:18,463 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:18,536 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:18,928 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:18,930 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:18,931 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:18,932 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:19,537 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:19,537 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:20,034 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:20,118 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:20,119 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:20,119 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:20,538 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:21,221 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:21,224 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:21,225 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:21,229 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:21,539 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:21,541 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:22,324 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:22,326 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:22,327 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:22,327 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:22,540 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:23,435 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:23,438 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:23,439 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:23,517 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:23,532 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:23,541 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:23,541 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:23,636 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-29 15:57:24,030 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: stop_status
+2023-03-29 15:57:24,542 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/config.yaml
+2023-03-29 15:57:24,822 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:24,829 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:24,829 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:24,830 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:25,618 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:25,618 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:25,926 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:25,927 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:25,928 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:25,929 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:26,618 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:27,031 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:27,033 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:27,033 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:27,033 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:27,622 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:27,622 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:28,124 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:28,126 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:28,126 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:28,127 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:28,622 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:29,225 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:29,227 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:29,228 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:29,318 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:29,318 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:29,623 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:29,623 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:30,426 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:30,427 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:30,428 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:30,429 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:30,623 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:31,536 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:31,538 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:31,538 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:31,540 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:31,624 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:31,632 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:32,632 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:32,634 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:32,634 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:32,635 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:33,625 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:33,626 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:33,724 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:33,731 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:33,732 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:33,733 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:34,422 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:34,626 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:34,827 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:34,829 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:34,829 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:34,830 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:35,626 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:35,627 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:35,925 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:35,927 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:35,927 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:35,928 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:36,629 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:37,025 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:37,027 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:37,027 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:37,028 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:37,629 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:37,630 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:38,128 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:38,130 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:38,130 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:38,131 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:38,630 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:38,638 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-29 15:57:38,639 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: stop_status
+2023-03-29 15:57:39,338 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:39,340 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:39,341 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:39,418 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:39,618 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:39,631 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:39,631 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:40,440 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:40,441 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:40,442 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:40,443 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:40,632 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:41,534 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:41,535 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:41,535 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:41,537 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:41,636 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:41,717 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:42,634 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:42,636 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:42,636 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:42,637 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:43,436 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:43,519 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:43,520 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:43,521 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:43,635 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/wandb-summary.json
+2023-03-29 15:57:43,635 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:45,049 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:45,930 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-29 15:57:45,931 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: log_artifact
+2023-03-29 15:57:46,237 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:47,531 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:47,637 INFO    Thread-13 :312 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/runner/Machine-Learning-Test-Project/wandb/run-20230329_155653-6l1e7zx2/files/output.log
+2023-03-29 15:57:48,924 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:49,606 INFO    wandb-upload_4:312 [upload_job.py:push():96] Uploaded file /home/runner/.local/share/wandb/artifacts/staging/tmpuj3u0lf2
+2023-03-29 15:57:49,623 INFO    wandb-upload_1:312 [upload_job.py:push():96] Uploaded file /home/runner/.local/share/wandb/artifacts/staging/tmp2w4bawb9
+2023-03-29 15:57:49,719 INFO    wandb-upload_0:312 [upload_job.py:push():96] Uploaded file /home/runner/.local/share/wandb/artifacts/staging/tmpt28bqlc2
+2023-03-29 15:57:49,725 INFO    wandb-upload_2:312 [upload_job.py:push():96] Uploaded file /home/runner/.local/share/wandb/artifacts/staging/tmpuqbjhyxz
+2023-03-29 15:57:49,819 INFO    wandb-upload_3:312 [upload_job.py:push():96] Uploaded file /home/runner/.local/share/wandb/artifacts/staging/tmp9km8a8rn
+2023-03-29 15:57:50,521 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-29 15:57:51,121 INFO    SenderThread:312 [sender.py:send_request_log_artifact():1392] logged artifact run_6l1e7zx2_model - {'id': 'QXJ0aWZhY3Q6NDA5MzkzOTM1', 'digest': 'bd2639fba44e7b093473007c8abe36cd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU5NDEyMDA2', 'latestArtifact': None}, 'version': 'latest'}
+2023-03-29 15:57:51,123 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:51,124 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:51,220 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:51,124 DEBUG   HandlerThread:312 [handler.py:handle_request():144] handle_request: status_report
+2023-03-29 15:57:51,221 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:51,222 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:51,223 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:51,223 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:51,224 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:51,224 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-29 15:57:51,225 DEBUG   SenderThread:312 [sender.py:send():336] send: history
+2023-03-29 15:57:51,225 DEBUG   SenderThread:312 [sender.py:send_request():363] send_request: summary_record
+2023-03-29 15:57:51,225 INFO    SenderThread:312 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
